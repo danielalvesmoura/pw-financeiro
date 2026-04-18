@@ -3,6 +3,7 @@ import { MdOutlineEmail } from "react-icons/md";
 
 import Logo from "../../../../shared/components/Logo/Logo";
 import Input from "../../../../shared/components/Input/Input";
+import PasswordInput from "../../../../shared/components/PasswordInput/PasswordInput";
 import InputError from "../../../../shared/components/InputError/InputError";
 import Teste from "../../../../shared/components/Teste/Teste";
 
@@ -26,6 +27,10 @@ const Login = () => {
                         label="E-MAIL"
                         placeholder="exemplo@email.com"
                         icon={<MdOutlineEmail />}
+                    />
+                    <PasswordInput
+                        label="SENHA"
+                        placeholder="••••••••••"
                     />
                 </form>
             </main>
